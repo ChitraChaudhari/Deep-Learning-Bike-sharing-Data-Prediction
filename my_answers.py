@@ -112,8 +112,7 @@ class NeuralNetwork(object):
         self.weights_input_to_hidden += self.lr * delta_weights_i_h/n_records
 
     def run(self, features):
-        ''' Run a forward pass through the network with input features 
-        
+        ''' Run a forward pass through the network with input features        
             Arguments
             ---------
             features: 1D array of feature values
